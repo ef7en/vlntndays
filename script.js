@@ -1,5 +1,5 @@
 document.querySelector('.vbutton').addEventListener('click', function() {
-    window.location.href = "https://open.spotify.com/";
+    window.location.href = "https://open.spotify.com/playlist/1b6Dm9kL2SR38FYuJJaJ7r?si=de5635a386594076";
 });
 
 document.querySelector('.vbutton2').addEventListener('click', function() {
