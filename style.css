@@ -1,0 +1,79 @@
+@font-face {
+    font-family: 'SfProSemi'; /* Custom name for the font */
+    src: url('sf-pro-display-semibold.woff2') format('woff2'),
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    font-family: SfProSemi;
+    text-align: center;
+}
+.first-text{
+    font-size: 60px;
+    text-align: center;
+}
+.second-text{
+    font-size: 23px;
+
+}
+.vbutton{
+    padding: 30px;
+    border: 0;
+    background-color: #fb6666;
+    border-radius: 20000000px;
+    font-size: 25px;
+    font-family: SfProSemi;
+    margin-top: 30px;
+}
+.vbutton2 {
+    padding: 17px;
+    border: 0;
+    background-color: #000000;
+    border-radius: 20000000px;
+    font-size: 15px;
+    font-family: SfProSemi;
+    margin-top: 30px;
+    color: white;
+}
+.rsyd0-text {
+    text-align: center;
+    font-size: 29px;
+    color: rgb(0, 0, 0);
+    margin-top: 10px;
+  
+}
+
+/* Keyframes for the fade-in animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+.rsyd-text{
+    opacity: 0; 
+    animation: fadeIn 2s ease-in forwards;
+    font-size: 28px;
+}
+.emoji {
+    font-family: "Apple Color Emoji", "Segoe UI Emoji", "Noto Color Emoji", sans-serif;
+    font-size: 1.2em; /* Adjust size if needed */
+    margin-left: 5px; /* Space between text and emoji */
+    transition: opacity 1s ease-in; /* Smooth fade-in */
+}
+@font-face {
+    font-family: 'AppleColorEmoji';
+    src: url('fonts/AppleColorEmoji.woff2') format('woff2');
+    font-display: swap;
+}
+.fade-in-img {
+    opacity: 1;
+    width: 200px; /* Adjust size as needed */
+
+    margin: 20px auto;
+    border-radius: 8px;
+}
+
