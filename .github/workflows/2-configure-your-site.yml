@@ -12,6 +12,7 @@ on:
       - my-pages
     paths:
       - _config.yml
+      theme: minima
 
 # Reference: https://docs.github.com/en/actions/security-guides/automatic-token-authentication
 permissions:
